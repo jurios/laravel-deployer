@@ -1,0 +1,28 @@
+{
+    "name": "kodilab/laravel-deployer",
+    "description": "Laravel deployer package",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi",
+            "email": "jordi@kodilab.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kodilab\\LaravelDeployer\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kodilab\\LaravelDeployer\\DeployerProvider"
+            ]
+        }
+    }
+}
