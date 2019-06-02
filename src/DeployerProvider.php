@@ -24,7 +24,7 @@ class DeployerProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'../config/config.php' => config_path('deployer.php'),
+            __DIR__.'/../config/config.php' => config_path('deployer.php'),
         ], 'laravel-deployer-config');
 
         $this->commands([
