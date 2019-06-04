@@ -27,4 +27,55 @@ return [
     | An included file which is ignored will be ignored anyway.
     */
     'include' => [],
+
+    'manager' => [
+
+        /*
+        |--------------------------------------------------------------------------
+        | Protocol
+        |--------------------------------------------------------------------------
+        |
+        | Here you choose which protocol Deployer is going to use. At this moment,
+        | you can choose "simulate", "sftp" of "ftp" string. Then you should fill in
+        | the respective configuration.
+        */
+        'protocol' => 'simulate',
+
+        /*
+        |--------------------------------------------------------------------------
+        | FTP Configuration
+        |--------------------------------------------------------------------------
+        |
+        | FOR SECURITY REASONS, USING ENVIRONMENT VARIABLES IS RECOMMENDED.
+        */
+        'ftp' => [
+            'host' => null,
+            'port' => null,
+            'user' => null,
+            'password' => null,
+            'path' => null
+        ],
+
+        /*
+        |--------------------------------------------------------------------------
+        | SFTP Configuration
+        |--------------------------------------------------------------------------
+        |
+        | FOR SECURITY REASONS, USING ENVIRONMENT VARIABLES IS RECOMMENDED.
+        */
+        'sftp' => [
+            'host' => null,
+            'port' => null,
+            'user' => null,
+            'password' => null,
+            'path' => null
+        ],
+
+        /*
+        |--------------------------------------------------------------------------
+        | Simulate Configuration
+        |--------------------------------------------------------------------------
+        */
+        'simulate' => [],
+    ]
 ];
