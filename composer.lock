@@ -235,12 +235,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurios/deployer.git",
-                "reference": "3be020a5748d6128c06f7c897b2d22b6db4020c4"
+                "reference": "6a2c8adb74fa96b8fddfd8f884a5359a2ccb2585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jurios/deployer/zipball/3be020a5748d6128c06f7c897b2d22b6db4020c4",
-                "reference": "3be020a5748d6128c06f7c897b2d22b6db4020c4",
+                "url": "https://api.github.com/repos/jurios/deployer/zipball/6a2c8adb74fa96b8fddfd8f884a5359a2ccb2585",
+                "reference": "6a2c8adb74fa96b8fddfd8f884a5359a2ccb2585",
                 "shasum": ""
             },
             "require": {
@@ -279,7 +279,7 @@
             "keywords": [
                 "deploy"
             ],
-            "time": "2019-06-09T07:07:22+00:00"
+            "time": "2019-06-10T07:16:49+00:00"
         },
         {
             "name": "nesbot/carbon",
