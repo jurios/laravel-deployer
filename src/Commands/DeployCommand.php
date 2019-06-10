@@ -40,12 +40,10 @@ class DeployCommand extends Command
      */
     public function handle()
     {
-        $deployer = new Deployer(
+        deploy_it(
             ".",
             config('deployer'),
             $this->option('prod-commit')
         );
-
-        $deployer->deploy();
     }
 }
