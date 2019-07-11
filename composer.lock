@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c72d5a99cafc6a995e91dd7b0774ac1b",
+    "content-hash": "b77e59e581ab7ff04086acd274365242",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -231,16 +231,16 @@
         },
         {
             "name": "kodilab/deployer",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurios/deployer.git",
-                "reference": "2ab89c34fbb5ab634a2a23832e71815395167a1e"
+                "reference": "61983363d12af9019700fcb97594e821bc9f35d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jurios/deployer/zipball/2ab89c34fbb5ab634a2a23832e71815395167a1e",
-                "reference": "2ab89c34fbb5ab634a2a23832e71815395167a1e",
+                "url": "https://api.github.com/repos/jurios/deployer/zipball/61983363d12af9019700fcb97594e821bc9f35d4",
+                "reference": "61983363d12af9019700fcb97594e821bc9f35d4",
                 "shasum": ""
             },
             "require": {
@@ -279,7 +279,7 @@
             "keywords": [
                 "deploy"
             ],
-            "time": "2019-06-10T09:22:47+00:00"
+            "time": "2019-07-11T15:41:20+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -966,9 +966,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kodilab/deployer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
