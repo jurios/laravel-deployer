@@ -231,16 +231,16 @@
         },
         {
             "name": "kodilab/deployer",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurios/deployer.git",
-                "reference": "61983363d12af9019700fcb97594e821bc9f35d4"
+                "reference": "bb6af1f5c55c71c9d7aa856f0c6dd2968ffd4f14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jurios/deployer/zipball/61983363d12af9019700fcb97594e821bc9f35d4",
-                "reference": "61983363d12af9019700fcb97594e821bc9f35d4",
+                "url": "https://api.github.com/repos/jurios/deployer/zipball/bb6af1f5c55c71c9d7aa856f0c6dd2968ffd4f14",
+                "reference": "bb6af1f5c55c71c9d7aa856f0c6dd2968ffd4f14",
                 "shasum": ""
             },
             "require": {
@@ -279,7 +279,7 @@
             "keywords": [
                 "deploy"
             ],
-            "time": "2019-07-11T15:41:20+00:00"
+            "time": "2019-08-03T06:41:21+00:00"
         },
         {
             "name": "nesbot/carbon",
